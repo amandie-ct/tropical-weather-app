@@ -1,0 +1,9 @@
+@use '../variables.scss';
+
+.logo {
+    color: variables.$red-magenta;
+    font-family: 'Courgette', cursive;
+    font-size: variables.$font-size-xxl;
+    padding: variables.$base-padding 0;
+
+}

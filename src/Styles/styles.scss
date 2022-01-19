@@ -1,0 +1,15 @@
+// variables and functions
+@use 'variables';
+
+// base and layouts
+@use 'base';
+@use 'grid';
+
+// components
+@use 'components/titles';
+@use 'components/input';
+@use 'components/background';
+
+// import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');

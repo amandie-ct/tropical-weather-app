@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  color: inherit;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1.6px solid #c0c0c0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.logo {
+  color: #F5303C;
+  font-family: "Courgette", cursive;
+  font-size: 3rem;
+  padding: 0.75rem 0;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(172, 255, 105, 0.7);
+  font-size: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+  width: 30%;
+  margin: 0.75rem;
+  font-size: 1.3rem;
+  padding: 0 0.75rem;
+  color: rgba(32, 33, 36, 0.6);
+}
+
+.input-text {
+  outline: none;
+  border: none;
+  color: #202124;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.submit {
+  background-color: transparent;
+  outline: none;
+  padding: 0.75rem 0;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.main-bg {
+  height: 100%;
+  background-image: url("img/tropicalbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -5;
+}
+
+.title-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-bg img {
+  width: 9%;
+}
+
+.output-bg {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(230, 207, 92, 0.7);
+  border-radius: 15px;
+  width: 50%;
+  padding: 0.75rem;
+  align-items: center;
+}
+
+.output-bg > * {
+  margin: 0.75rem;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=styles.css.map */

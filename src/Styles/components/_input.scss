@@ -1,0 +1,32 @@
+@use '../variables.scss';
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: variables.$light-green;
+    font-size: variables.$base-font-size;
+    border-radius: 20px;
+    box-shadow: variables.$base-box-shadow;
+    width: 30%;
+    margin: variables.$base-margin;
+    font-size: variables.$font-size-mmd;
+    padding: 0 variables.$base-padding;
+    color: variables.$light-gray;
+}
+
+.input-text {
+    outline: none;
+    border: none;
+    color: variables.$gray;
+    background-color: transparent;
+    font-size: variables.$font-size-md;
+}
+
+.submit {
+    background-color: transparent;
+    outline: none;
+    padding: variables.$base-padding 0;
+    border: none;
+    font-size: variables.$font-size-mmd;
+}

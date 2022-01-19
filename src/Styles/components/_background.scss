@@ -1,0 +1,42 @@
+@use '../variables.scss';
+@use 'sass:math';
+
+.main-bg{
+    height: 100%;
+    background-image: url("img/tropicalbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -5;
+}
+
+.title-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 9%;
+    }
+}
+
+.output-bg{
+    display: flex;
+    flex-direction: column;
+    background-color: variables.$light-yellow;
+    border-radius: 15px;  
+    width: 50%;
+    padding: variables.$base-padding;
+    align-items: center;   
+}
+
+.output-bg > * {
+    margin: variables.$base-margin;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
