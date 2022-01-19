@@ -6,9 +6,6 @@
 
 <h4 align="center">Em construção... 🚀</h4>
 
-Tabela de conteúdos
-=================
-
 
 <a href="#">Link da aplicação (Netlify)</a>
 
@@ -16,9 +13,9 @@ Tabela de conteúdos
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [MaterialUI](https://mui.com/pt/)
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Accuweather](https://developer.accuweather.com/)
 
 ### Autor
 
