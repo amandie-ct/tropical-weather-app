@@ -15,7 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Accuweather](https://developer.accuweather.com/)
+- [Accuweather API](https://developer.accuweather.com/)
 - [Redux](https://react-redux.js.org/)
 - [SASS](https://sass-lang.com/)
 
