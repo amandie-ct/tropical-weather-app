@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "./Title";
 import Input from "./Input";
 import Output from "./Output";
@@ -7,6 +7,7 @@ import Day from "./Day";
 const MainPage: React.FC = () => {
     const apiKey: string = 'f7JP84cluI08PJ11jGoppxhs74bl05sb';
     const baseURL: string = 'http://dataservice.accuweather.com/locations/v1/cities/search/';
+    const [cityId, setCityId] = useState();
 
     const queryParams: object = new URLSearchParams({
         apikey: apiKey,
@@ -22,12 +23,16 @@ const MainPage: React.FC = () => {
 
     return <main className="main-bg">
         <div className="container">
-            <Title/>
-            <section className="main-info">
-                <Input/>
-                <Day/>
-                <Output/>
-            </section>
+            <div className="row">
+                <div className="col-10-md">
+                    <Title/>
+                    <section className="main-info">
+                        <Input/>
+                        <Day/>
+                        <Output/>
+                    </section>
+                </div>
+            </div>
         </div>
     </main>
 }
