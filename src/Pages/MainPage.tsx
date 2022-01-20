@@ -24,7 +24,7 @@ const MainPage: React.FC = () => {
     return <main className="main-bg">
         <div className="container">
             <div className="row">
-                <div className="col-10-md">
+                <div className="col-12-xs col-8-sm col-6-md col-4-xl">
                     <Title/>
                     <section className="main-info">
                         <Input/>
