@@ -7,8 +7,8 @@ import Daytime from "./Daytime";
 const MainPage: React.FC = () => {
 
     return <main className="main-bg">
-            <div className="row">
-                <div className="col-12-xs col-8-sm col-6-md col-4-xl">
+        <div className="container">
+                <div className="responsive-test">
                     <div className="container">
                         <Title/>
                         <section className="main-info">

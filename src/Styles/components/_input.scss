@@ -4,15 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: variables.$light-green;
-    font-size: variables.$base-font-size;
+    background-color: variables.$light-yellow;
     border-radius: 20px;
     box-shadow: variables.$base-box-shadow;
-    min-width: 30%;
+    min-width: 10vw;
     margin: variables.$base-margin;
-    font-size: variables.$font-size-mmd;
     padding: 0 variables.$base-padding;
-    color: variables.$light-gray;
+    color: variables.$yellow;
 }
 
 .input-text {
@@ -20,8 +18,8 @@
     border: none;
     color: variables.$gray;
     background-color: transparent;
-    font-size: variables.$font-size-md;
-    min-width: 70%;
+    padding: 0 variables.$base-padding;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .submit {
@@ -29,5 +27,5 @@
     outline: none;
     padding: variables.$base-padding 0;
     border: none;
-    font-size: variables.$font-size-mmd;
+    
 }

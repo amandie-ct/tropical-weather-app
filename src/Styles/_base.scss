@@ -5,7 +5,13 @@
 }
 
 body{
-    font-family: 'Poppins';
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("img/tropicalbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+    z-index: -1;
 }
 
 ul {

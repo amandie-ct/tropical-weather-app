@@ -5,9 +5,12 @@ $yellow:#E6CF5C;
 $salmon: #FFA659;
 $red-magenta: #F5303C;
 $gray: #202124;
+$dim-gray: #696969;
 
 // light colors
-$light-yellow: rgba(230, 207, 92, 0.7);
+$light-salmon: rgba(255, 166, 89, 0.4);
+$light-turquoise: rgb(69, 245, 166, 0.5);
+$light-yellow: rgba(230, 207, 92, 0.6);
 $light-green: rgba(172, 255, 105, 0.7);
 $light-gray: rgba(32, 33, 36, 0.6);
 
@@ -28,10 +31,9 @@ $base-border-radius: 20px;
 $base-box-shadow: 0 3px 12px rgb(0 0 0 / 0.3);
 
 // font-sizes
-$base-font-size: 1rem;
-$font-size-md: $base-font-size * 1.2;
-$font-size-mmd: $base-font-size * 1.3;
-$font-size-lg: $base-font-size * 1.5;
-$font-size-xl: $base-font-size * 2;
-$font-size-xxl: $base-font-size * 3;
-$font-size-4l: $base-font-size * 4;
+$font-size-xs: 0.7em;
+$font-size-sm: 1em;
+$font-size-md: 1.5em;
+$font-size-lg: 2.3em;
+$font-size-xl: 2.8em;
+$font-size-xxl: 3.5em;

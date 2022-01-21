@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const cityDetailsSlice = createSlice({
-    name: "dummy",
+    name: 'cityDetails',
     initialState: {
         forecast: null,
         forecastIcon: null,
