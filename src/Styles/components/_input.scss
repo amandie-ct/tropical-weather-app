@@ -3,29 +3,41 @@
 .input{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: variables.$light-yellow;
+    justify-content: space-between;
     border-radius: 20px;
     box-shadow: variables.$base-box-shadow;
-    min-width: 10vw;
-    margin: variables.$base-margin;
     padding: 0 variables.$base-padding;
-    color: variables.$yellow;
+    margin-top: variables.$base-margin * 3;
+    margin-bottom: variables.$base-margin * 2;
+    background-color: variables.$almost-white;
+    color: variables.$light-green;
+    width: 100%;
+}
+
+.input:focus{
+    background-color: white;
 }
 
 .input-text {
     outline: none;
     border: none;
-    color: variables.$gray;
     background-color: transparent;
     padding: 0 variables.$base-padding;
     font-family: 'Quicksand', sans-serif;
+    color: variables.$greenish-gray;
+}
+
+.input-icon{
+    font-size: variables.$font-size-sm;
 }
 
 .submit {
     background-color: transparent;
     outline: none;
-    padding: variables.$base-padding 0;
     border: none;
-    
+    font-size: variables.$font-size-md;
+}
+
+.submit:hover{
+    color: variables.$flower-orange;
 }

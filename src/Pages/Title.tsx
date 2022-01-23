@@ -1,10 +1,10 @@
 import React from "react";
-import weathericon from "../Styles/img/weathericon.svg";
+import sun from "../Styles/img/sun.png";
 
 const Title: React.FC = () => {
-    return <div className="title-bg">
-        <h1 className="logo">PrevTempo</h1>
-        <img className="logo-icon" src={weathericon} alt="cloudy weather icon"/>
+    return <div className="title-container">
+        <h1 className="logo"><span>Prev</span>Tempo</h1>
+        <img className="logo-icon" src={sun} alt="sun icon"/>
     </div>
 }
 

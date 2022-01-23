@@ -1,0 +1,10 @@
+@use '../variables.scss';
+
+.logo {
+    color: variables.$flower-pink;
+    font-family: 'Courgette', cursive;
+
+    span {
+        color: variables.$flower-orange;
+    }
+}

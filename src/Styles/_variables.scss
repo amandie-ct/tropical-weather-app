@@ -1,29 +1,22 @@
 // theme colors
-$turquoise: #45F5A6;
-$lime-green: #ACFF69;
-$yellow:#E6CF5C;
-$salmon: #FFA659;
-$red-magenta: #F5303C;
-$gray: #202124;
-$dim-gray: #696969;
+$grey-sand: #d6d1b1;
+$grey-light-blue: #cfe0c0;
+$light-blue: #c7efcf;
+$almost-white: #eef5db;
+$light-green: #acc282;
+$greenish-gray: #1e1f1d;
+$flower-pink: #f3506b;
+$flower-orange: #f78142;
 
-// light colors
-$light-salmon: rgba(255, 166, 89, 0.4);
-$light-turquoise: rgb(69, 245, 166, 0.5);
-$light-yellow: rgba(230, 207, 92, 0.6);
-$light-green: rgba(172, 255, 105, 0.7);
-$light-gray: rgba(32, 33, 36, 0.6);
 
-// horizontal gradient
-$horizontal-gradient: linear-gradient(0deg, rgba(230,207,92,1) 0%, rgba(168,255,105,1) 50%, rgba(69,245,173,1) 100%);
-
-// vertical gradient
-$vertical-gradient: linear-gradient(90deg, rgba(69,245,173,1) 0%, rgba(168,255,105,1) 50%, rgba(230,207,92,1) 100%);
+// gradient
+$sea-gradient: linear-gradient(90deg, rgba(243,80,107, 0.8) 0%, rgba(247,129,66, 0.8) 100%);
 
 // spacing
 $sm-padding: 0.25rem;
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;
+$margin-sm: 0.5rem;
 
 // borders
 $base-thickness: 1px;
@@ -31,9 +24,13 @@ $base-border-radius: 20px;
 $base-box-shadow: 0 3px 12px rgb(0 0 0 / 0.3);
 
 // font-sizes
-$font-size-xs: 0.7em;
+$font-size-xxs: 0.7em;
+$font-size-xs: 0.9em;
 $font-size-sm: 1em;
-$font-size-md: 1.5em;
-$font-size-lg: 2.3em;
-$font-size-xl: 2.8em;
-$font-size-xxl: 3.5em;
+$font-size-md: 1.3em;
+$font-size-lg: 2em;
+$font-size-xl: 2.6em;
+$font-size-xxl: 3.2em;
+$font-size-xxxl: 3.6em;
+$font-size-4l: 4em;
+$font-size-realb: 5em;

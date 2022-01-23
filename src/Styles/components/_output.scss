@@ -1,0 +1,29 @@
+@use '../variables.scss';
+
+.output-bg{
+    display: flex;
+    flex-direction: column;
+    padding: variables.$base-padding;
+    align-items: center;
+    justify-content: space-around;    
+    box-shadow: variables.$base-box-shadow;
+    background: variables.$almost-white;
+    color: variables.$greenish-gray;
+    min-height: 20%;
+    
+    h2, h3, h4 {
+        letter-spacing: 0.1em;
+    }
+    h2 {
+        color: variables.$flower-orange;
+    }
+}
+
+.forecast-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        padding: 0 variables.$base-padding;
+    }
+}

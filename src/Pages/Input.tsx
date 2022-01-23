@@ -6,16 +6,12 @@ const Input: React.FC = () => {
     const [cityName, setCityName] = useState('');
     
     return <div className="input">
-        <FontAwesomeIcon icon={faMapMarkerAlt}/>
+        <FontAwesomeIcon icon={faMapMarkerAlt} className="input-icon"/>
 
         <input className="input-text" type="text" placeholder="Busque uma cidade..."
         value={cityName} name="cityName" onChange={e => setCityName(e.target.value)}/>
 
-        <button className="submit" 
-        // onClick={getWeather}
-        >
-            <FontAwesomeIcon icon={faSearch}/>
-        </button>
+        <FontAwesomeIcon icon={faSearch} className="input-icon"/>
     </div>
 }
 

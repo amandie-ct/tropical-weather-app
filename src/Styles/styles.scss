@@ -3,12 +3,16 @@
 
 // base and layouts
 @use 'base';
+@use 'breakpoint';
 @use 'grid';
+@use 'bpxs';
 
 // components
-@use 'components/titles';
+@use 'components/logo';
 @use 'components/input';
 @use 'components/background';
+@use 'components/output';
+@use 'components/footer';
 
 // import google fonts
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Quicksand&display=swap');

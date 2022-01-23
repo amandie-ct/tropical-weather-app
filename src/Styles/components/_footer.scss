@@ -1,0 +1,42 @@
+@use '../variables';
+@use 'sass:math';
+
+.footer {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: variables.$base-padding;
+    flex-direction: column;
+    background: variables.$sea-gradient;
+    color: variables.$grey-light-blue;
+    box-shadow: variables.$base-box-shadow;
+
+    a{
+        color: variables.$almost-white;
+    }
+
+    a:hover{
+        color: variables.$light-blue;
+    }
+}
+
+.footer > * {
+    margin-bottom: variables.$base-margin;
+}
+
+.footer-author{
+    display: flex;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    font-size: variables.$font-size-md;
+
+    a{
+        margin: 0 math.div(variables.$base-margin, 2);
+    }
+}

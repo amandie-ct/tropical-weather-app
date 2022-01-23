@@ -1,16 +1,19 @@
+@use './_variables';
+
 // resetting original styles
 * {
     margin: 0;
     color: inherit;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Quicksand', sans-serif;
-    background-image: url("img/tropicalbg.jpg");
+    background-image: url("img/tropical-flowers.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    height: 100%;
+    background-position: center;
+    height: 100vh;
     z-index: -1;
 }
 
@@ -21,6 +24,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: variables.$light-blue;
 }
 
 hr{
