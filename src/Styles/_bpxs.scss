@@ -1,10 +1,10 @@
-@use 'variables';
-@use 'breakpoint';
-@use 'grid';
+@use "variables";
+@use "breakpoint";
+@use "grid";
 
-.responsive-test{
+.responsive-test {
     @include breakpoint.xs {
-        .logo{
+        .logo {
             padding-top: variables.$base-padding * 2;
         }
 
@@ -13,23 +13,23 @@
         }
 
         h3 {
-            font-size: variables.$font-size-md; 
+            font-size: variables.$font-size-md;
         }
 
         h4 {
             font-size: variables.$font-size-md;
         }
-        .input{
-            .input-icons{
-                font-size: variables.$font-size-sm;
-                margin: variables.$base-margin;
-            }
-            .input-text{
-                font-size: variables.$font-size-xs;
-                margin: 0 variables.$margin-sm;
-            }
+
+        .input-icons {
+            font-size: variables.$font-size-sm;
+            margin: variables.$base-margin;
         }
-        .footer{
+        .input-text {
+            font-size: variables.$font-size-xs;
+            margin: 0 variables.$margin-sm;
+        }
+        
+        .footer {
             font-size: variables.$font-size-xxs;
         }
     }

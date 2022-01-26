@@ -1,5 +1,8 @@
 import {configureStore } from '@reduxjs/toolkit';
+import { setCityDets } from './cityDets';
 
 export default configureStore({
-    reducer: {}
+    setDetails: {
+        setDets: setCityDets
+    }
 });

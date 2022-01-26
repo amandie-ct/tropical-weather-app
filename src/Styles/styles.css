@@ -8,10 +8,8 @@
 body {
   font-family: "Quicksand", sans-serif;
   background-image: url("img/tropical-flowers.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  height: 100vh;
+  background-size: cover;
   z-index: -1;
 }
 
@@ -450,88 +448,6 @@ img {
   }
 }
 @media (min-width: 0) {
-  .responsive-test h1 {
-    font-size: 2.6em;
-  }
-  .responsive-test h2 {
-    font-size: 2em;
-  }
-  .responsive-test h3 {
-    font-size: 1.3em;
-  }
-  .responsive-test h4 {
-    font-size: 1.3em;
-  }
-  .responsive-test .input-text {
-    font-size: 1em;
-    padding: 0.75rem 0;
-  }
-  .responsive-test .footer {
-    font-size: 0.8035714286em;
-  }
-}
-@media (min-width: 480px) {
-  .responsive-test h1 {
-    font-size: 2em;
-  }
-  .responsive-test h2 {
-    font-size: 2em;
-  }
-  .responsive-test h3 {
-    font-size: 1.3em;
-  }
-  .responsive-test h4 {
-    font-size: 1.3em;
-  }
-  .responsive-test .input-text {
-    font-size: 1em;
-    padding: 0.75rem 0;
-  }
-}
-@media (min-width: 720px) {
-  .responsive-test h1 {
-    font-size: 3.2em;
-  }
-  .responsive-test h2 {
-    font-size: 2em;
-  }
-  .responsive-test h3 {
-    font-size: 1.3em;
-  }
-  .responsive-test h4 {
-    font-size: 1.3em;
-  }
-  .responsive-test .input-text {
-    font-size: 1.3em;
-    padding: 0.75rem 0;
-  }
-  .responsive-test .footer {
-    font-size: 1.3em;
-  }
-}
-@media (min-width: 960px) {
-  .responsive-test h1 {
-    font-size: 4em;
-  }
-  .responsive-test h2 {
-    font-size: 2.6em;
-  }
-  .responsive-test h3 {
-    font-size: 2em;
-  }
-  .responsive-test h4 {
-    font-size: 1.3em;
-  }
-  .responsive-test .input-text {
-    font-size: 1.3em;
-    padding: 0.75rem 0;
-  }
-  .responsive-test .footer {
-    font-size: 1.3em;
-  }
-}
-
-@media (min-width: 0) {
   .responsive-test .logo {
     padding-top: 1.5rem;
   }
@@ -557,6 +473,122 @@ img {
   }
 }
 
+@media (min-width: 480px) {
+  .responsive-test .logo {
+    padding-top: 1.5rem;
+  }
+  .responsive-test .logo h1 {
+    font-size: 3.2em;
+  }
+  .responsive-test h2 {
+    font-size: 2em;
+  }
+  .responsive-test h3 {
+    font-size: 1.3em;
+  }
+  .responsive-test h4 {
+    font-size: 1.3em;
+  }
+  .responsive-test .input {
+    margin-top: 2.25rem;
+    padding: 0.75rem;
+  }
+  .responsive-test .input .input-icons {
+    font-size: 1em;
+    margin: 0.75rem;
+  }
+  .responsive-test .input .input-text {
+    font-size: 0.9em;
+    margin: 0 0.5rem;
+    width: 70%;
+  }
+  .responsive-test .footer {
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width: 720px) {
+  .responsive-test h1 {
+    font-size: 3.2em;
+  }
+  .responsive-test h2 {
+    font-size: 2em;
+  }
+  .responsive-test h3 {
+    font-size: 1.3em;
+  }
+  .responsive-test h4 {
+    font-size: 1em;
+  }
+  .responsive-test .input-text {
+    font-size: 1.3em;
+    padding: 0.75rem;
+  }
+  .responsive-test .footer {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 960px) {
+  .responsive-test body {
+    background-image: url("img/tropical-rotate.png");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+  }
+  .responsive-test h1 {
+    font-size: 3.6em;
+  }
+  .responsive-test h2 {
+    font-size: 2.6em;
+  }
+  .responsive-test h3 {
+    font-size: 2em;
+  }
+  .responsive-test h4 {
+    font-size: 1.3em;
+  }
+  .responsive-test .input-text {
+    font-size: 2em;
+  }
+  .responsive-test .footer {
+    font-size: 1em;
+  }
+  .responsive-test .footer .footer-links {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-test body {
+    background-image: url("img/tropical-rotate.png");
+    background-position: center;
+    background-size: contain;
+    z-index: -1;
+  }
+  .responsive-test h1 {
+    font-size: 3.6em;
+  }
+  .responsive-test h2 {
+    font-size: 2em;
+  }
+  .responsive-test h3 {
+    font-size: 1.3em;
+  }
+  .responsive-test h4 {
+    font-size: 1.3em;
+  }
+  .responsive-test .input-text {
+    font-size: 2em;
+  }
+  .responsive-test .footer {
+    font-size: 1em;
+  }
+  .responsive-test .footer .footer-links {
+    font-size: 2em;
+  }
+}
+
 .logo {
   color: #f3506b;
   font-family: "Courgette", cursive;
@@ -579,10 +611,6 @@ img {
   width: 100%;
 }
 
-.input:focus {
-  background-color: white;
-}
-
 .input-text {
   outline: none;
   border: none;
@@ -590,21 +618,11 @@ img {
   padding: 0 0.75rem;
   font-family: "Quicksand", sans-serif;
   color: #1e1f1d;
+  width: 70%;
 }
 
 .input-icon {
   font-size: 1em;
-}
-
-.submit {
-  background-color: transparent;
-  outline: none;
-  border: none;
-  font-size: 1.3em;
-}
-
-.submit:hover {
-  color: #f78142;
 }
 
 .title-container {
@@ -639,6 +657,7 @@ img {
 }
 .output-bg h2 {
   color: #f78142;
+  font-family: "Courgette", cursive;
 }
 
 .forecast-info {
@@ -666,7 +685,7 @@ img {
   color: #eef5db;
 }
 .footer a:hover {
-  color: #c7efcf;
+  color: #d6d1b1;
 }
 
 .footer > * {

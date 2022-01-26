@@ -14,10 +14,6 @@
     width: 100%;
 }
 
-.input:focus{
-    background-color: white;
-}
-
 .input-text {
     outline: none;
     border: none;
@@ -25,19 +21,9 @@
     padding: 0 variables.$base-padding;
     font-family: 'Quicksand', sans-serif;
     color: variables.$greenish-gray;
+    width: 70%;
 }
 
 .input-icon{
     font-size: variables.$font-size-sm;
-}
-
-.submit {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    font-size: variables.$font-size-md;
-}
-
-.submit:hover{
-    color: variables.$flower-orange;
 }

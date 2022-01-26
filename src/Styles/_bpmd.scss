@@ -1,0 +1,32 @@
+@use 'variables';
+@use 'breakpoint';
+@use 'grid';
+
+.responsive-test {
+
+    @include breakpoint.md {
+        h1 {
+            font-size: variables.$font-size-xxl;
+        }
+
+        h2 {
+            font-size: variables.$font-size-lg;
+        }
+
+        h3 {
+            font-size: variables.$font-size-md; 
+        }
+
+        h4 {
+            font-size: variables.$font-size-sm;
+        }
+
+        .input-text {
+            font-size: variables.$font-size-md;
+            padding: variables.$base-padding;
+        }
+        .footer {
+            font-size: variables.$font-size-sm;
+        }
+    }
+}

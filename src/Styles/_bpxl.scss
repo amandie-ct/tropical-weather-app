@@ -1,0 +1,41 @@
+@use 'variables';
+@use 'breakpoint';
+@use 'grid';
+
+.responsive-test{
+
+    @include breakpoint.xl{
+        body{
+            background-image: url("img/tropical-rotate.png");
+            background-position: center;
+            background-size: contain;
+            z-index: -1;
+        }
+        
+        h1 {
+            font-size: variables.$font-size-xxxl;
+        }
+
+        h2 {
+            font-size: variables.$font-size-lg;
+        }
+
+        h3 {
+            font-size: variables.$font-size-md; 
+        }
+
+        h4 {
+            font-size: variables.$font-size-md;
+        }
+    
+        .input-text{
+            font-size: variables.$font-size-lg;
+        }
+        .footer{
+            font-size: variables.$font-size-sm;
+            .footer-links{
+                font-size: variables.$font-size-lg; 
+            }
+        }
+    }
+}
