@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// get city
+// Lógica do fetch e set states com vanilla javascript
 
 // primeiro - montar a query string para pegar o ID da cidade e fazer a chamada na API
 
