@@ -33,7 +33,6 @@ const searchCity = (querystring: string) => {
     })
     .then(data => {
         setCityId(data.key)
-        setCityName(data.key[0])
     })
     .catch(err => {
         console.log(err);
