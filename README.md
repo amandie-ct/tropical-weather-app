@@ -1,6 +1,6 @@
 <h1 align="center">Tropical Weather App</h1>
 
-<p align="center">Aplicativo para checar as condições climáticas, buscando por cidade (inglês).</p>
+<p align="center">Aplicativo para checar as condições climáticas, buscando por cidade.</p>
 
 
 
