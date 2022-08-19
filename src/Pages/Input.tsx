@@ -2,16 +2,29 @@ import { faMapMarkerAlt, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { getCity, getWeather } from "../Services/API";
+import { ICurrentConditions } from "../Types/ICurrentConditions";
 
-const Input: React.FC = () => {
+interface InputProps {
+    currentConditions: ICurrentConditions
+    setCurrentConditions: Function
+    setLocalizedName: Function
+}
+
+const Input: React.FC<InputProps> = ({currentConditions, setCurrentConditions, setLocalizedName}) => {
     const [cityName, setCityName] = useState('');
     const key: string = 'f7JP84cluI08PJ11jGoppxhs74bl05sb';
 
     const getWeatherForecast = async () => {
         const cityResponse: any = await getCity(key, cityName)
+        setLocalizedName(cityResponse.data[0].LocalizedName)
         const locationKey = cityResponse.data[0].Key
-        const weatherResponse = await getWeather(key, locationKey)
-        console.log(weatherResponse.data)
+        const weatherResponse: any = await getWeather(key, locationKey)
+        setCurrentConditions({
+            weatherText: weatherResponse.WeatherText,
+            weatherIcon: weatherResponse.WeatherIcon,
+            isDayTime: weatherResponse.IsDayTime,
+            temperature: weatherResponse.Temperature.Metric.Value
+        })
     }
     
     return (
