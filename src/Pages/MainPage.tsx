@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Title from "./Title";
 import Input from "./Input";
 import Output from "./Output";
@@ -11,7 +11,7 @@ const MainPage: React.FC = () => {
                 <div className="row row-container">
                     <div className="responsive-test core-div col-11-xs col-10-sm col-8-md col-5-lg">
                         <Title/>
-                        <Input/>
+                        <Input />
                         <Daytime/>
                         <Output/>
                         <Footer/>
